@@ -1,0 +1,162 @@
+/*	****************************************
+	Base Styles
+	**************************************** */
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+body{
+	background: white;
+	line-height: 1.5;
+	color: grey;
+}
+
+section {
+    min-height: 100%; /* required - makes the sections act like pages */
+    padding-top: 75px; /* how tall is the persistent nav bar at the top? */
+    padding-bottom: 25px; /* typical - keep content away from the next section */
+    text-align: left; /* typical for long scrolly pages */
+}
+
+p { margin-top: 0; }
+
+h1{
+	margin-bottom: 50px;
+	text-align: center;
+	color: white;
+	background-color: black; 
+	font-family: 'Oswald', sans-serif;
+}
+
+
+img {
+	width: 75%;
+	height: 75%
+}
+
+h2{
+	text-align: left;
+	vertical-align: top;
+	margin: none;
+	padding: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+form{
+	margin-left: 50px;
+}
+
+textarea{
+	margin-left: 50px;
+}
+
+/****************************
+Navigation
+*****************************/
+.main-menu {
+	position: fixed; 
+	top: 0;
+	z-index: 1000; 
+	width: 100%; 
+	background: black; 
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+.main-menu ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+	display: flex;
+	
+}
+.main-menu a { 
+	display: block;
+	padding: 15px;
+	color: grey;
+	text-decoration: none;
+}
+.main-menu a:hover { color: #ddd; }
+
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+
+
+.right {
+	float: right;
+	margin-left: 15px;
+}
+
+.frame {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px; 
+}
+
+.content {
+	text-align: left;
+	overflow: auto;
+	display: inline-block;
+}
+
+.container{
+	background: white;
+}
+
+.z {
+	display: inline-block;
+	width: 47%;
+	height: 47%
+	margin: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.f{
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.is-current {
+	background-color: white;
+	color: black;
+}
+
+
+/********************
+ID's
+*******************/
+
+
+#z1{
+	margin-bottom: 100px;
+}
+
+
+#fp{
+	width: 70%;
+	text-align: left;
+	vertical-align: top;
+}
+
+#second img {
+	width: 25%;
+	height: 25%;
+}
+
+#third{
+	margin-bottom: 50px;
+}
+
+#third ul{
+	text-align: left;
+}
